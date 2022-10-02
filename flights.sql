@@ -1,0 +1,9 @@
+ create table flights (
+ s_no int primary key not null auto_increment,
+ COMPANY_NAME VARCHAR(60),
+ COUNTRY_OF_ORIGIN VARCHAR(60),
+ COUNTRY_OF_DESTINATION VARCHAR(60),
+ FLIGHT_NO varchar(25)),
+ TIME_OF_DEPARTURE VARCHAR(20),
+ TIME_OF_ARRIVAL VARCHAR(20),
+ PRICE INT (20);
